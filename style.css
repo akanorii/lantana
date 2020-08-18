@@ -1,0 +1,143 @@
+body {
+  background-color: #ffffff;
+}
+/* Main content */
+.main {
+  margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+}
+.background-image {
+  height: 600px;
+  width: 1460px;
+  background-image: url(./Images/Orchid-Banner-e1389120481779.jpg);
+  background-repeat: repeat-x;
+  background-size: 1500px 300px;
+  padding-top: -10px;
+  padding-left: 35px;
+  background-attachment: scroll;
+  background-origin: padding-box;
+}
+.shop-name {
+  color: white;
+  font-weight: bold;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 100px;
+  text-align: left;
+  padding-top: 70px;
+  outline: thin;
+  outline-color: rgb(11, 87, 13);
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;  text-align: center;
+  font-weight: lighter;
+  font-size: 50px;
+  color: darkblue;
+  padding-top: 5px;
+}
+.about, .special-orders-p, .FAQ, .icons{
+  font-family: 'Quicksand', sans-serif;
+}
+.icons {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 12px 16px; /* Some padding */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+.special-orders, .aboutnav{
+  margin-top: -300px;
+  font-family: 'Quicksand', sans-serif;
+}
+.FAQ {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.about {
+  margin-top: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-left: 75px;
+  margin-right:75px;
+}
+nav {
+  display: block;
+  font-family: 'Quicksand', sans-serif;  
+  text-align: center;
+}
+.orchids {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 50px;
+  font-size: 20px;
+  color: black;
+  margin-left: 75px;
+  margin-right:75px;
+}
+.gallery-intro {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-left: 65px;
+  margin-right:65px;
+}
+footer {
+  display: block;
+  margin-top: 600px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+#navaux {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding: 50px;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
+}
+.faq {
+  padding-top: -100px;
+}
+h3, #faq {
+  padding-top: 25px;
+  font-family: 'Quicksand', sans-serif;
+  color: darkslategrey;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-left: 90px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.orchid-gallery {
+  margin: px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-left: 45px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+div.orchid-gallery:hover {
+  border: 1px solid #777;
+}
+
+div.orchid-gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
